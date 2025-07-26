@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita's To-Do List App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>My To-Do List</h1>
+            <form class="input-area">
+                <input type="text" id="task-input" placeholder="Add a new task...">
+                <input type="date" id="task-date" />
+                <button type="submit" id="add-task-btn"><i class="fa-solid fa-plus"></i></button>
+            </form>
+
+        <div class="filter-area">
+        <label for="filter-date">Filter by date:</label>
+        <input type="date" id="filter-date">
+        </div>
+
+            <div class="todos-container">
+                <ul id="task-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html> 
